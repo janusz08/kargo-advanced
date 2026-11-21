@@ -90,11 +90,11 @@ multiple Stages.
     with your username).
 
     ```shell
-    kargo create credentials github-creds \
-      --project kargo-advanced \
-      --git \
-      --username <yourgithubusername> \
-      --repo-url https://github.com/<yourgithubusername>/kargo-advanced.git
+  kargo create repo-credentials github-creds \
+  --project kargo-advanced \
+  --git \
+  --username janusz08 \
+  --repo-url https://github.com/janusz08/kargo-advanced.git
     ```
 
     As part of the promotion process, Kargo requires privileges to commit changes
